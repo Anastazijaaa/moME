@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">moME</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nStart to be motivated \n today!</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="welcome">Welcome!</string>
+    <string-array name="strArDaily">
+        <item>"He who is not courageous enough to take risks will accomplish nothing in life."\n-Muhammad Ali</item>
+        <item>"You can have anything you want if you want it badly enough. You can be anything you want to be, do anything you set out to accomplish if you hold to that desire with singleness of purpose."\n-Abraham Lincoln</item>
+    <item>"Here I am . . . wanting to accomplish something and completely forgetting it must all end—that there is such a thing as death."\n—Leo Tolstoy</item>
+    <item>"Knowing is not enough; we must apply. Willing is not enough; we must do."\n—Johann Wolfgang von Goethe"</item>
+    <item>“Do you want to know who you are? Don’t ask. Act! Action will delineate and define you.”\n—Thomas Jefferson</item>
+    <item>“The path to success is to take massive, determined actions."\n—Tony Robbins"</item>
+    <item>"Ambition is the path to success. Persistence is the vehicle you arrive in."\n—Bill Bradley</item>
+    <item>“Ambition is enthusiasm with a purpose.”\n—Frank Tyger</item>
+    <item>“A man’s worth is no greater than his ambitions.”\n—Marcus Aurelius</item>
+    <item>"Believe it can be done. When you believe something can be done, really believe, your mind will find the ways to do it. Believing a solution paves the way to solution."\n—David Joseph Schwartz</item>
+    <item>“Be brave to stand for what you believe in even if you stand alone.”\n—Roy T. Bennett</item>
+    <item>"Believing in yourself is not for you; it's for every person who has touched your life in a significant way and for every person your life will touch the same way five minutes from now, or five centuries from now."\n—Jaye Miller</item>
+    <item>"Clarity precedes success."\n—Robin Sharma</item>
+    <item>“A lack of clarity could put the brakes on any journey to success.”\n—Steve Maraboli</item>
+    <item>“Clarity affords focus.”\n—Thomas Leonard</item>
+    <item>"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."\n—Martin Luther King, Jr.</item>
+    <item>“The key to life is accepting challenges. Once someone stops doing this, he’s dead.”\n—Bette Davis</item>
+    <item>“I don’t run away from a challenge because I am afraid. Instead, I run towards it because the only way to escape fear is to trample it beneath your foot.”\n—Nadia Comaneci</item>
+    <item>"Once you have commitment, you need the discipline and hard work to get you there."\n—Haile Gebrselassie</item>
+    <item>“Commitment is an act, not a word.”\n—Jean-Paul Sartre</item>
+    <item>"Commitment is what transforms a promise into a reality."\n—Abraham Lincoln</item>
+
+        </string-array>
+
+
+    <string-array name="strArStudying">
+        <item>
+Procrastination is the art of keeping up with yesterday. \n-Don Marquis</item>
+
+        <item>
+Procrastination makes easy things hard, hard things harder. \n- Mason Cooley</item>
+        <item>
+Procrastination is like a credit card: it’s a lot of fun until you get the bill. \n- Christopher Parker</item>
+        <item>
+Procrastination is opportunity’s assassin. \n- Victor Kiam</item>
+        <item>
+My biggest regret could be summed up in one word, and that’s procrastination. \n- Ron Cooper</item>
+        <item>
+Procrastination is the thief of time. \n- Edward Young</item>
+        <item>
+The secret to getting ahead is getting started. \n-Unknown </item>
+        <item>
+The expert in everything was once a beginner. \n-Unknown </item>
+
+
+        <item>
+Ninety-nine percent of the failures come from people who have the habit of making excuses. \n-George Washington Carver</item>
+        <item>
+The real man is one who always finds excuses for others, but never excuses himself. \n-Henry Ward Beecher</item>
+        <item>
+The day you take complete responsibility for yourself, the day you stop making any excuses, that’s the day you start to the top. \n- O.J. Simpson</item>
+        <item>
+It’s not the time to look for excuses. \n- Rafael Nadal</item>
+        <item>
+However difficult life may seem, there is always something you can do and succeed at. \n-Stephen Hawking</item>
+        <item>
+Start where you are. Use what you have. Do what you can. \n-Arthur Ashe</item>
+        <item>
+There are two kinds of people in this world: those who want to get things done and those who don’t want to make mistakes. \n-John Maxwell</item>
+        <item>
+Your positive action combined with positive thinking results in success. \n- Shiv Khera</item>
+        <item>
+Good things come to people who wait, but better things come to those who go out and get them. \n-Unknown</item>
+        <item>
+I find that the harder I work, the more luck I seem to have. \n-Thomas Jefferson</item>
+        <item>
+Success is the sum of small efforts, repeated day in and day out. \n-Robert Collier</item>
+        <item>
+Success is not final, failure is not fatal: it is the courage to continue that counts. \n-Winston Churchill</item>
+        <item>
+Don’t wish it were easier; wish you were better. \n-Jim Rohn</item>
+        <item>
+The secret of success is to do the common things uncommonly well. \n-John D. Rockefeller</item>
+        <item>
+Successful and unsuccessful people do not vary greatly in their abilities. They vary in their desires to reach their potential. \n-John Maxwell</item>
+        <item>
+Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do. \n- Pele</item>
+
+    </string-array>
+    <string-array name="strArFriends">
+       <item>“Friendship is the hardest thing in the world to explain. It’s not something you learn in school. But if you haven’t learned the meaning of friendship, you really haven’t learned anything.”
+\n-Muhammad Ali</item>
+
+        <item>“ “Don’t make friends who are comfortable to be with. Make friends who will force you to lever yourself up.”
+\n-Thomas J. Watson</item>
+
+        <item>“ “The most beautiful discovery true friends make is that they can grow separately without growing apart.”
+\n-Elisabeth Foley</item>
+
+        <item>“ “Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born.”
+\n-Anais Nin</item>
+
+        <item>“ “Life is partly what we make it, and partly what it is made by the friends we choose.”
+\n-Tennessee Williams</item>
+
+        <item>“ “They may forget what you said, but they will never forget how you made them feel.”
+\n-Carl W. Buechner</item>
+
+        <item>“ “Find a group of people who challenge and inspire you; spend a lot of time with them, and it will change your life.”
+\n-Amy Poehler</item>
+
+        <item> “The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.”
+\n-Helen Keller</item>
+
+        <item>
+ “Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”
+\n-Dumbledore</item>
+
+        <item>
+ “A real friend is one who walks in when the rest of the world walks out.”
+\n-Walter Winchell</item>
+
+        <item>
+ “A friend is someone who understands your past, believes in your future, and accepts you just the way you are.”
+\n-Unknown</item>
+
+        <item>
+“Growing apart doesn’t change the fact that for a long time we grew side by side; our roots will always be tangled. I’m glad for that.”
+\n-Ally Condie</item>
+
+        <item>
+“Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.”
+\n-Marcel Proust</item>
+
+        <item>
+ “Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.”
+\n-Oprah Winfrey</item>
+
+        <item>
+ “In the sweetness of friendship let there be laughter, for in the dew of little things the heart finds its morning and is refreshed.”
+\n-Unknown</item>
+
+        <item>
+ “It’s not what we have in life, but who we have in our life that matters.”
+\n-Unknown</item>
+        <item>
+ “To the world you may be just one person, but to one person you may be the world.”
+\n-Dr. Seuss</item>
+
+        <item>
+ “A friend is one who overlooks your broken fence and admires the flowers in your garden.”
+\n-Unknown
+</item>
+
+    </string-array>
+</resources>

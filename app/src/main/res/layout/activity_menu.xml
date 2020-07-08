@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/other_pages_image"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_guideline"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_guideline"
+        app:layout_constraintGuide_percent=".75"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_guideline"
+        app:layout_constraintGuide_percent=".0"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_guideline"
+        app:layout_constraintGuide_percent="1"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="235dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/tv_subtitle"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/give_you_glory"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/btnDaily"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorAccent"
+        app:layout_constraintVertical_weight="1"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/top_guideline"
+        app:layout_constraintBottom_toBottomOf="@id/btnStudying"
+        android:text="Daily quotes"
+        />
+
+    <Button
+        android:id="@+id/btnStudying"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/design_default_color_primary_dark"
+        app:layout_constraintVertical_weight="1"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/btnDaily"
+        app:layout_constraintBottom_toBottomOf="@id/btnFriends"
+        android:text="Begin to study today!"
+        />
+
+    <Button
+        android:id="@+id/btnFriends"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        app:layout_constraintVertical_weight="1"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/btnStudying"
+        app:layout_constraintBottom_toBottomOf="@id/btnTasks"
+        android:text="Quotes about friends"
+        />
+
+    <Button
+        android:id="@+id/btnTasks"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        app:layout_constraintVertical_weight="1"
+        android:layout_gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/design_default_color_primary"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/btnFriends"
+        app:layout_constraintBottom_toBottomOf="@id/btnSurprise"
+        android:text="My tasks"
+        />
+
+    <Button
+        android:id="@+id/btnSurprise"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        app:layout_constraintVertical_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/btnFriends"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_guideline"
+        android:text="Surprise me!"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
